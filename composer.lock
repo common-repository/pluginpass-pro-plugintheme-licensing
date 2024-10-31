@@ -1,0 +1,140 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f22cc9d3d1c567a5e1ad00f10d5b0453",
+    "content-hash": "7236f443f9d2d77b9b6f186c5f89be9c",
+    "packages": [
+        {
+            "name": "labs64/netlicensingclient-php",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Labs64/NetLicensingClient-php.git",
+                "reference": "169e13e71e8a43993b06a344ada1fb3e486ff8ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Labs64/NetLicensingClient-php/zipball/169e13e71e8a43993b06a344ada1fb3e486ff8ea",
+                "reference": "169e13e71e8a43993b06a344ada1fb3e486ff8ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "php-curl-class/php-curl-class": "^7.3.0"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.6",
+                "phpunit/phpunit": "~5.7",
+                "wp-cli/php-cli-tools": "^0.11.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "netlicensing.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Labs64 NetLicensing",
+                    "email": "netlicensing@labs64.com",
+                    "homepage": "http://netlicensing.io"
+                }
+            ],
+            "description": "PHP wrapper for Labs64 NetLicensing RESTful API",
+            "homepage": "http://netlicensing.io",
+            "keywords": [
+                "NetLicensing",
+                "api",
+                "client",
+                "floating",
+                "license",
+                "license management",
+                "license types",
+                "licensing",
+                "licensing as a service",
+                "licensing model",
+                "pay-per-use",
+                "rest",
+                "restful",
+                "software activation",
+                "software license",
+                "subscription"
+            ],
+            "time": "2019-08-02 14:12:16"
+        },
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "7.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "c15f23ce5d52a4c68b69640ed6510a9d2a98ec6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/c15f23ce5d52a4c68b69640ed6510a9d2a98ec6f",
+                "reference": "c15f23ce5d52a4c68b69640ed6510a9d2a98ec6f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/Curl/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                }
+            ],
+            "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "json",
+                "php",
+                "requests",
+                "rest",
+                "restful",
+                "web service",
+                "xml"
+            ],
+            "time": "2017-09-04 21:38:09"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": []
+}
